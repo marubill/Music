@@ -12,6 +12,12 @@
 		53F663AE207B38B200E4A765 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F663AC207B38B200E4A765 /* Main.storyboard */; };
 		53F663B0207B38B600E4A765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53F663AF207B38B600E4A765 /* Assets.xcassets */; };
 		53F663B3207B38B600E4A765 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F663B1207B38B600E4A765 /* LaunchScreen.storyboard */; };
+		53F663C1207B38D600E4A765 /* aki.png in Resources */ = {isa = PBXBuildFile; fileRef = 53F663BB207B38D600E4A765 /* aki.png */; };
+		53F663C2207B38D600E4A765 /* natsu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53F663BC207B38D600E4A765 /* natsu.mp3 */; };
+		53F663C3207B38D600E4A765 /* ame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53F663BD207B38D600E4A765 /* ame.mp3 */; };
+		53F663C4207B38D600E4A765 /* natsu.png in Resources */ = {isa = PBXBuildFile; fileRef = 53F663BE207B38D600E4A765 /* natsu.png */; };
+		53F663C5207B38D600E4A765 /* ame.png in Resources */ = {isa = PBXBuildFile; fileRef = 53F663BF207B38D600E4A765 /* ame.png */; };
+		53F663C6207B38D600E4A765 /* aki.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53F663C0207B38D600E4A765 /* aki.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		53F663AF207B38B600E4A765 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53F663B2207B38B600E4A765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		53F663B4207B38B600E4A765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53F663BB207B38D600E4A765 /* aki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aki.png; sourceTree = "<group>"; };
+		53F663BC207B38D600E4A765 /* natsu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = natsu.mp3; sourceTree = "<group>"; };
+		53F663BD207B38D600E4A765 /* ame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ame.mp3; sourceTree = "<group>"; };
+		53F663BE207B38D600E4A765 /* natsu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = natsu.png; sourceTree = "<group>"; };
+		53F663BF207B38D600E4A765 /* ame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ame.png; sourceTree = "<group>"; };
+		53F663C0207B38D600E4A765 /* aki.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aki.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 		53F663A7207B38B100E4A765 /* Music */ = {
 			isa = PBXGroup;
 			children = (
+				53F663BA207B38D600E4A765 /* Music素材 */,
 				53F663A8207B38B200E4A765 /* AppDelegate.swift */,
 				53F663AA207B38B200E4A765 /* ViewController.swift */,
 				53F663AC207B38B200E4A765 /* Main.storyboard */,
@@ -62,6 +75,19 @@
 				53F663B4207B38B600E4A765 /* Info.plist */,
 			);
 			path = Music;
+			sourceTree = "<group>";
+		};
+		53F663BA207B38D600E4A765 /* Music素材 */ = {
+			isa = PBXGroup;
+			children = (
+				53F663BB207B38D600E4A765 /* aki.png */,
+				53F663BC207B38D600E4A765 /* natsu.mp3 */,
+				53F663BD207B38D600E4A765 /* ame.mp3 */,
+				53F663BE207B38D600E4A765 /* natsu.png */,
+				53F663BF207B38D600E4A765 /* ame.png */,
+				53F663C0207B38D600E4A765 /* aki.mp3 */,
+			);
+			path = "Music素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +148,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53F663C3207B38D600E4A765 /* ame.mp3 in Resources */,
 				53F663B3207B38B600E4A765 /* LaunchScreen.storyboard in Resources */,
+				53F663C2207B38D600E4A765 /* natsu.mp3 in Resources */,
+				53F663C6207B38D600E4A765 /* aki.mp3 in Resources */,
 				53F663B0207B38B600E4A765 /* Assets.xcassets in Resources */,
 				53F663AE207B38B200E4A765 /* Main.storyboard in Resources */,
+				53F663C5207B38D600E4A765 /* ame.png in Resources */,
+				53F663C4207B38D600E4A765 /* natsu.png in Resources */,
+				53F663C1207B38D600E4A765 /* aki.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
